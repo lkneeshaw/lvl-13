@@ -34034,7 +34034,7 @@ h1 {
 
 /* line 40, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
 .slide-in {
-  opacity: 0;
+  opacity: 0.5;
   -webkit-transition: all .5s;
   transition: all .5s; }
 
