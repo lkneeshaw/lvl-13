@@ -16,44 +16,44 @@ t+=" .ui.visible."+a+".sidebar ~ .fixed, .ui.visible."+a+".sidebar ~ .pusher {  
 // @codekit-prepend "jquery.js";
 // @codekit-prepend "semantic.js";
 
-///**********************************
-//  CONFIGURE JSON CALL
-//**********************************/ 
-//// The API feed
-//var getStuff = 'http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC';
-//
-//// Optional settings for private collections. This is public, no settings needed. 
-//var setStuff = {};
-//
-//// Do stuff with returned data
-//var doStuff = function(data) {
-//
-//  console.log(data.data["0"].images.original.url);
-//  
-//  // What do you want to do? Show (display on page) data? 
-//  showStuff(data);
-//    
-//};
-//
-///************************************
-//  GET JSON FROM API
-//************************************/ 
-//$.getJSON( getStuff, setStuff, doStuff);
-//
-//
-///************************************
-//  SHOW (DISPLAY ON PAGE)
-//************************************/ 
-//var showStuff = function(data) {
-//  
-////   console.log(data.data[numRand].images.looping.mp4); 
-//  $('img').attr('src', data.data["0"].images.original.url)
-//  
-//}
+/**********************************
+  CONFIGURE JSON CALL
+**********************************/ 
+// The API feed
+var getStuff = 'http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC';
+
+// Optional settings for private collections. This is public, no settings needed. 
+var setStuff = {};
+
+// Do stuff with returned data
+var doStuff = function(data) {
+
+  console.log(data.data["0"].images.original.url);
+  
+  // What do you want to do? Show (display on page) data? 
+  showStuff(data);
+    
+};
+
+/************************************
+  GET JSON FROM API
+************************************/ 
+$.getJSON( getStuff, setStuff, doStuff);
+
+
+/************************************
+  SHOW (DISPLAY ON PAGE)
+************************************/ 
+var showStuff = function(data) {
+  
+//   console.log(data.data[numRand].images.looping.mp4); 
+  $('img').attr('src', data.data["0"].images.original.url)
+  
+}
 
 //JS30 STUFF
 
-function debounce(func, wait = 20, immediate = true) {
+ function debounce(func, wait = 20, immediate = true) {
       var timeout;
       return function() {
         var context = this, args = arguments;
@@ -87,6 +87,4 @@ function debounce(func, wait = 20, immediate = true) {
     }
 
     window.addEventListener('scroll', debounce(checkSlide));
-
-console.log(data);
 
