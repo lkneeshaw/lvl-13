@@ -29,12 +29,16 @@ $.getJSON( getStuff, setStuff, doStuff);
 /************************************
   SHOW (DISPLAY ON PAGE)
 ************************************/ 
+
+
 var showStuff = function(data) {
   
 //   console.log(data.data[numRand].images.looping.mp4); 
-  $('img').attr('src', data.data["0"].images.original.url)
+  $('img').attr('src', data.data[0].images.original.url)
   
 }
+
+//QUESTION FOR COLIN ^^^^^ HOW MAKE THE THING LOOP???
 
 //JS30 STUFF
 
