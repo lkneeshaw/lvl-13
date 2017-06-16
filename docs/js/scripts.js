@@ -20,7 +20,7 @@ t+=" .ui.visible."+a+".sidebar ~ .fixed, .ui.visible."+a+".sidebar ~ .pusher {  
   CONFIGURE JSON CALL
 **********************************/ 
 // The API feed
-var getStuff = 'http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC&rating=pg';
+var getStuff = 'https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC&rating=pg';
 
 // Optional settings for private collections. This is public, no settings needed. 
 var setStuff = {};
