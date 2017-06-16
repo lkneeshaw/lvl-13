@@ -1,11 +1,11 @@
 /* Stylehsheet */
-@import "semantic";
+//@import "semantic";
 
 html {
       box-sizing: border-box;
-      background:#ffc600;
-      font-family:'helvetica neue';
-      font-size: 20px;
+      background:#87e0e6;
+      font-family:'comfortaa', 'helvetica', 'sans serif';
+      font-size: 2em;
       font-weight: 200;
     }
     body {
@@ -15,14 +15,16 @@ html {
       box-sizing: inherit;
     }
 
-    h1 {
-      margin-top: 0;
+    #title {
+        margin: 100px auto 50px auto;
+        text-align: center;
+        animation: rainbow 1s infinite;
     }
 
     .site-wrap {
-      max-width: 700px;
+      max-width: 50%;
+        height: 100%;
       margin: 100px auto;
-      background:white;
       padding:40px;
       text-align: justify;
     }
@@ -53,3 +55,29 @@ html {
       opacity:1;
       transform:translateX(0%) scale(1);
     }
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    
+    20% {
+        color: #ffb744;
+    }
+    
+    40% {
+        color: green;
+    }
+    
+    60% {
+        color: blue;
+    }
+    
+    80% {
+        color: purple;
+    }
+    
+    100% {
+        color: red;
+    }
+}

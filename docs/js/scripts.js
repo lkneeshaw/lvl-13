@@ -20,7 +20,7 @@ t+=" .ui.visible."+a+".sidebar ~ .fixed, .ui.visible."+a+".sidebar ~ .pusher {  
   CONFIGURE JSON CALL
 **********************************/ 
 // The API feed
-var getStuff = 'http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC';
+var getStuff = 'http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC&rating=pg';
 
 // Optional settings for private collections. This is public, no settings needed. 
 var setStuff = {};
@@ -54,6 +54,13 @@ var showStuff = function(data) {
  $('#zero').attr('src', data.data[0].images.original.url)
  $('#one').attr('src', data.data[1].images.original.url)
  $('#two').attr('src', data.data[2].images.original.url)
+ $('#three').attr('src', data.data[3].images.original.url)
+ $('#four').attr('src', data.data[4].images.original.url)
+ $('#five').attr('src', data.data[5].images.original.url)
+ $('#six').attr('src', data.data[6].images.original.url)
+ $('#seven').attr('src', data.data[7].images.original.url)
+ $('#eight').attr('src', data.data[8].images.original.url)
+ $('#nine').attr('src', data.data[9].images.original.url)
   
 }
 
