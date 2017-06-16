@@ -1,2 +1,93 @@
-html{box-sizing:border-box;background:#87e0e6;font-family:'comfortaa', 'helvetica', 'sans serif';font-size:2em;font-weight:200}body{margin:0}*,*:before,*:after{box-sizing:inherit}#title{margin:100px auto 50px auto;text-align:center;-webkit-animation:rainbow 1s infinite;animation:rainbow 1s infinite}.site-wrap{max-width:50%;height:100%;margin:100px auto;padding:40px;text-align:justify}.align-left{float:left;margin-right:20px}.align-right{float:right;margin-left:20px}.slide-in{opacity:0;-webkit-transition:all .5s;transition:all .5s}.align-left.slide-in{-webkit-transform:translateX(-30%) scale(0.95);transform:translateX(-30%) scale(0.95)}.align-right.slide-in{-webkit-transform:translateX(30%) scale(0.95);transform:translateX(30%) scale(0.95)}.slide-in.active{opacity:1;-webkit-transform:translateX(0%) scale(1);transform:translateX(0%) scale(1)}@-webkit-keyframes rainbow{0%{color:red}20%{color:#ffb744}40%{color:green}60%{color:blue}80%{color:purple}100%{color:red}}@keyframes rainbow{0%{color:red}20%{color:#ffb744}40%{color:green}60%{color:blue}80%{color:purple}100%{color:red}}
+/* Stylehsheet */
+/* line 4, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+html {
+  box-sizing: border-box;
+  background: #87e0e6;
+  font-family: 'comfortaa', 'helvetica', 'sans serif';
+  font-size: 2em;
+  font-weight: 200; }
+
+/* line 11, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+body {
+  margin: 0; }
+
+/* line 14, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 18, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+#title {
+  margin: 100px auto 50px auto;
+  text-align: center;
+  -webkit-animation: rainbow 1s infinite;
+          animation: rainbow 1s infinite; }
+
+/* line 24, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+.site-wrap {
+  max-width: 50%;
+  height: 100%;
+  margin: 100px auto;
+  padding: 40px;
+  text-align: justify; }
+
+/* line 32, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+.align-left {
+  float: left;
+  margin-right: 20px; }
+
+/* line 37, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+.align-right {
+  float: right;
+  margin-left: 20px; }
+
+/* line 42, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+.slide-in {
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+/* line 47, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+.align-left.slide-in {
+  -webkit-transform: translateX(-30%) scale(0.95);
+          transform: translateX(-30%) scale(0.95); }
+
+/* line 50, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+.align-right.slide-in {
+  -webkit-transform: translateX(30%) scale(0.95);
+          transform: translateX(30%) scale(0.95); }
+
+/* line 54, /Users/laurakneeshaw/Desktop/lvl-13/css/styles.scss */
+.slide-in.active {
+  opacity: 1;
+  -webkit-transform: translateX(0%) scale(1);
+          transform: translateX(0%) scale(1); }
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: red; }
+  20% {
+    color: #ffb744; }
+  40% {
+    color: green; }
+  60% {
+    color: blue; }
+  80% {
+    color: purple; }
+  100% {
+    color: red; } }
+
+@keyframes rainbow {
+  0% {
+    color: red; }
+  20% {
+    color: #ffb744; }
+  40% {
+    color: green; }
+  60% {
+    color: blue; }
+  80% {
+    color: purple; }
+  100% {
+    color: red; } }
+
 /*# sourceMappingURL=styles.css.map */
